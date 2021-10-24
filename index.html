@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> p 78</title>
+    </head>
+    <body> 
+        <h1> A FAMILY </h1>
+        <img id="FAM" src="FAM.jpg">
+        <h2 id="names">MY FAMILY </h2>
+        <button onclick="flipimage()"> CHANGE PHOTO </button>
+        <style> img{
+            width: 300;
+            height: 300;
+        }
+        body {
+        text-align: center;
+        }
+        </style>
+        <script> var album=["FAM.jpg", "grand pa.jpg", "grand ma.jpg", "pa.jpg", "ma.jpg", "child.jpg"];
+         var members 
+        var i=0;
+        function flipimage(){
+
+         document.getElementById("FAM").src= album[i];
+         i++}
+        </script>
+    </body>
+</html>
